@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!--Remy Sharp Shim --> 
+	<!--[if lte IE 9]> 
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript" >
+	</script> 
+	<![endif]-->
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html"><img class="logo" src="images/logo.jpg" alt="Logo"></a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="lightbox.html">Cakes</a></li>
+				<li><a href="othersweets.html">Other Sweets</a></li>
+				<li><a href="contact.html">Contact Us/Order</a></li>
+				<li>
+					<a href=""><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+					<a href=""><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+					<a href=""><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+				</li>
+			</ul>
+		</nav>
+		<div id="wrapper-contact">
+			<h1 class="top-header1">Contact Us</h1>
+			<form action="formhandler.php" method="post">
+				<fieldset>
+					<label>Full Name</label>
+					<input type="text" name="full name">
+					<label>Phone Number</label>
+					<input type="text" name="phone number">
+					<label>Email Address</label>
+					<input type="email" name="email">	
+					<p id="inquiry-type">Interested in:</p>
+					<select name="interests">
+						<option value= "" selected disabled> -- select an option --</option>
+						<option value="catering">Catering Service</option>
+						<option value="treats">Treats</option>
+						<option value="">Special Occasion</option>
+						<option value="wedding">Wedding Cake</option>
+						<option value="other">Other</option>
+					</select>
+					<label>Comments</label>	
+					<textarea name="comments" rows="10"></textarea>	
+					<input type="submit" value="Submit">				
+					</fieldset>
+			</form>
+			<h1 class="top-header1">Visit us</h1>
+			<p>North Seattle College</p>
+			<p>Seattle, WA 98103</p>
+			<p>9600 College Way N</p>
+			<div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2685.2393597295513!2d-122.33561218518948!3d47.6991902895718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490140174d2fc9d%3A0xef595859431902b6!2sNorth+Seattle+College!5e0!3m2!1sen!2sus!4v1512622602232" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>		
+			
+			
+		</div> <!-- end wrapper -->
+		<footer> 
+			<ul>
+				<li>&copy; 2017</li>
+				<li>All Rights Rerved</li>
+				<li><a href="../index.html">Jeremy's Home Page</a></li>
+				<li><a id="valid" href="http://compass.northseattle.edu/~jperez/it111/final/contact.html"><img class="valid" src="images/html5-logo.png" alt="html5 logo"></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

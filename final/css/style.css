@@ -1,0 +1,218 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/backgroundphoto.jpg");
+	background-attachment: fixed;
+}
+
+img.logo {
+	border: none;
+	float: left;
+	height: 50px;
+}
+
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #8e0e6a;
+	z-index: 10;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	line-height: 50px;
+	width: 14.28%;
+}
+
+img.twitter {
+	border: none;
+	float: right;
+}
+
+img.facebook {
+	border: none;
+	float: right;
+}
+
+img.instagram {
+	border: none;
+	float: right;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+li a:hover:not(#valid) {
+	background-color: black;
+	color: white;
+}
+
+
+div#history, div#cakes, div#sweets, div#contact, div#schnell, div#reshaughn, div#wrapper-thank, div#wrapper-contact {
+  	padding: 20px 20%;
+  	background-color: white;
+ }
+ 
+ p {
+	line-height: 1.6em;
+ }	
+ 
+h1, p, label {
+	padding-bottom: 10px;
+	font-family: sans-serif;
+}
+ 
+ div#history, div#wrapper, div#schnell, div#wrapper-thank, div#wrapper-contact {
+	padding-top:70px;
+}
+
+div#clear1, div#clear2, div#clear3, div#clear4 {
+	clear: both;
+	height: 500px;
+}
+
+img {
+	border: 1px solid black;
+}
+
+img.wedding, img.contact, img.reshaughn {
+	margin-right: 30px;
+	float: left;
+	width: 350px;
+}
+
+img.specialty, img.history, img.schnell {
+	margin-left: 30px;
+	float: right;
+	width: 350px;
+}
+
+img.example-image, img.example-image1 {
+	margin: 0px 30px;
+}
+
+div#specialty2 img.example-image1 {
+	margin: 0px auto;
+}
+
+div#wrapper {
+	background-color: white;
+	padding-bottom:50px;
+}
+
+div#wedding-cakes1, div#wedding-cakes2, div#wedding-cakes3, div#wedding-cakes4, div#wedding-cakes5, div#specialty2, div#specialty1, div#specialty3{
+	margin: 20px 10%;
+	text-align: center;
+}
+
+div#wedding-cakes6 {
+	padding: 20px auto;
+	text-align: center;
+}
+
+h1.top-header1 {
+	margin: 30px 0px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	background-color: #8e0e6a;
+}
+
+footer ul {
+	height:50px;
+	width: 940px;
+	text-align: center;
+	margin: auto;
+}
+
+footer li {
+	float: left;
+	width: 25%;
+	list-style-type: none;
+	line-height: 50px;
+	text-align: center;	
+}
+
+img.valid {
+	border: none;
+	display: block;
+	height: 50px;
+	margin: auto;
+}
+
+img.example-image {
+	height: 250px;
+}
+
+img.example-image1 {
+	height: 200px;
+}
+
+div#wrapper-thank {
+	height: 100%;
+}
+
+form {
+	max-width: 580px;
+	margin-bottom: 10px;
+}
+
+fieldset {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+legend {
+	font-size: 1.4em;
+	font-style: italic;
+
+}
+
+label {
+	clear: both;
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+p#inquiry-type {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+textarea {
+	width: 98%;
+	margin-bottom: 10px;
+}
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
